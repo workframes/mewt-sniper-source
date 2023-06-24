@@ -1,0 +1,39 @@
+{
+    "KEY": "",
+    "DEBUG": false,
+    "AUTHENTICATION": {
+        "COOKIES": ["cookie1", "cookie2"],
+        "DETAILS_COOKIE": ""
+    },
+    "MISC": {
+        "BUY_DEBOUNCE": 1,
+        "WATCHER": {
+            "SCAN_SPEED": 1,
+            "USE_LEGACY_WATCHER": false,
+            "ONLY_FREE": true,
+            "ITEMS": [],
+            "BLACKLIST": []
+        },
+        "AUTOSEARCH": {
+            "ENABLE": true,
+            "WHITELISTED_CREATORS": [],
+            "BUY_PAID": {
+                "ENABLE": false,
+                "MAX_STOCK": 0,
+                "MAX_PRICE": 0
+            }
+        },
+        "DISCORD": {
+            "ENABLE": false,
+            "TOKEN": "",
+            "AUTHORIZED_IDS": []
+        },
+        "WEBHOOK": {
+            "ENABLE": false,
+            "URL": ""
+        },
+        "GLOBAL_LOGS": {
+            "HIDDEN": false
+        }
+    }
+}
